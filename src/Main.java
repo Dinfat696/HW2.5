@@ -33,7 +33,7 @@ public class Main {
         System.out.println(st);
         System.out.println();
 
-        List<String> strings = new ArrayList<>(List.of("один","один", "два", "два", "два", "три", "три", "три"));
+        List<String> strings = new ArrayList<>(List.of("один", "два", "два", "два", "три", "три", "три"));
         Map<String, Integer> map = new HashMap<>();
         for (String string : strings) {
             if (!map.containsKey(string)) {
